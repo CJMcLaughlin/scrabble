@@ -1,0 +1,66 @@
+
+/* Float button underneath score */
+#btn {
+	position: fixed;
+	float: left;
+}
+/* Set the min-width so that it doesn't mess up on smaller resolutions */
+body{
+	width:80%;
+	margin:10%;
+	margin-top: 10px;
+	min-width: 1337px;
+
+	background-color: #c4bc8f
+;
+
+}
+/* Make a title box that has scrabbles main colors */
+#title{
+	width: 100%;
+	height: 25%;
+	background-color: red;
+	color:white;
+	font-size: 200%;
+}
+/* regular tiles on the board are lightblue all are 130px x 150px */
+.tileDrop {
+	background-color: lightblue;
+	width: 130px;
+	height: 150px;
+
+}
+/* align the board and float it above the "rack" */
+#board{
+	margin-left: 10%;
+	margin-top: 10%;
+	float:left;
+}
+/* Try to align the tiles underneath the board */
+#tiles {
+	margin: 20%;
+	margin-top: 5%;
+	float: left;
+
+}
+/* As a default the images are REALLY big and wont fit on the board. Shrink them */
+img{
+	width: 110px;
+	height: 145px;
+}
+/* Set double letter score to pink */
+.dub_letter{
+	background-color: pink;
+}
+/*set double word score to red */
+.dub_word {
+	background-color: red;
+}
+/* set triple lettter score to blue */
+.trip_letter{
+	background-color:blue;
+}
+/* set triple word score to navy*/
+.trip_word{
+	background-color: navy;
+}
